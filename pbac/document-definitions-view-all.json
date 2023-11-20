@@ -1,0 +1,15 @@
+{
+  "changesetId": "document-definitions-view-all-v1",
+  "permissions": [
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocumentDefinition",
+      "action": "view",
+      "roleKey": "ROLE_USER"
+    },
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocumentDefinition",
+      "action": "view_list",
+      "roleKey": "ROLE_USER"
+    }
+  ]
+}
