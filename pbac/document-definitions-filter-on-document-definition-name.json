@@ -1,5 +1,5 @@
 {
-  "changesetId": "document-definitions-view-all-v1",
+  "changesetId": "document-definitions-filter-on-document-definition-name-v1",
   "permissions": [
     {
       "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocumentDefinition",
