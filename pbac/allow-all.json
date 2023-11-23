@@ -84,7 +84,7 @@
       "action": "view",
       "roleKey": "ROLE_USER",
       "conditions": []
-    },,
+    },
     {
       "resourceType": "com.ritense.document.domain.impl.snapshot.JsonSchemaDocumentSnapshot",
       "action": "view_list",
@@ -102,19 +102,19 @@
       "action": "view_list",
       "roleKey": "ROLE_USER",
       "conditions": []
-    },,
+    },
     {
       "resourceType": "com.ritense.note.domain.Note",
       "action": "create",
       "roleKey": "ROLE_USER",
       "conditions": []
-    },,
+    },
     {
       "resourceType": "com.ritense.note.domain.Note",
       "action": "modify",
       "roleKey": "ROLE_USER",
       "conditions": []
-    },,
+    },
     {
       "resourceType": "com.ritense.note.domain.Note",
       "action": "delete",
@@ -126,37 +126,37 @@
       "action": "view",
       "roleKey": "ROLE_USER",
       "conditions": []
-    },,
+    },
     {
       "resourceType": "com.ritense.valtimo.camunda.domain.CamundaTask",
       "action": "view_list",
       "roleKey": "ROLE_USER",
       "conditions": []
-    },,
+    },
     {
       "resourceType": "com.ritense.valtimo.camunda.domain.CamundaTask",
       "action": "claim",
       "roleKey": "ROLE_USER",
       "conditions": []
-    },,
+    },
     {
       "resourceType": "com.ritense.valtimo.camunda.domain.CamundaTask",
       "action": "assign",
       "roleKey": "ROLE_USER",
       "conditions": []
-    },,
+    },
     {
       "resourceType": "com.ritense.valtimo.camunda.domain.CamundaTask",
       "action": "assignable",
       "roleKey": "ROLE_USER",
       "conditions": []
-    },,
+    },
     {
       "resourceType": "com.ritense.valtimo.camunda.domain.CamundaTask",
       "action": "complete",
       "roleKey": "ROLE_USER",
       "conditions": []
-    }
+    },
     {
       "resourceType": "com.ritense.case.domain.CaseTab",
       "action": "view",
