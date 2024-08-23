@@ -1,0 +1,110 @@
+{
+  "changesetId": "documents-full-access-v1",
+  "permissions": [
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocumentDefinition",
+      "action": "view",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocumentDefinition",
+      "action": "view_list",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocument",
+      "action": "view",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocument",
+      "action": "view_list",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocument",
+      "action": "create",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocument",
+      "action": "modify",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocument",
+      "action": "claim",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocument",
+      "action": "assign",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocument",
+      "action": "assignable",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.case.domain.CaseTab",
+      "action": "view",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.case_.domain.tab.CaseWidgetTabWidget",
+      "action": "view",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.note.domain.Note",
+      "action": "view",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.note.domain.Note",
+      "action": "view_list",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.note.domain.Note",
+      "action": "create",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.note.domain.Note",
+      "action": "modify",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.note.domain.Note",
+      "action": "delete",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.valtimo.camunda.domain.CamundaTask",
+      "action": "view",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.valtimo.camunda.domain.CamundaTask",
+      "action": "view_list",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.valtimo.camunda.domain.CamundaTask",
+      "action": "assign",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.valtimo.camunda.domain.CamundaTask",
+      "action": "assignable",
+      "conditions": []
+    },
+    {
+      "resourceType": "com.ritense.valtimo.camunda.domain.CamundaTask",
+      "action": "complete",
+      "conditions": []
+    }
+  ]
+}
