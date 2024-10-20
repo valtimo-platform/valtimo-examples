@@ -12,6 +12,11 @@
       "conditions": []
     },
     {
+      "resourceType": "com.ritense.case_.domain.tab.CaseWidgetTabWidget",
+      "action": "view",
+      "conditions": []
+    }, 
+    {
       "resourceType": "com.ritense.document.domain.impl.JsonSchemaDocument",
       "action": "view",
       "conditions": []
